@@ -128,6 +128,7 @@ function Hexagon(props) {
       xmlns="http://www.w3.org/2000/svg"
       version="1.1"
       className={props.className}
+      height={props.height}
       viewBox={viewBox}>
 
       {props.backgroundImage && <BackgroundDef id={bgId} {...props} />}
@@ -167,6 +168,7 @@ Hexagon.propTypes = {
 Hexagon.defaultProps = {
   diagonal: 500,
   flatTop: false,
+  height: '100%',
   style: {}
 }
 
