@@ -33,6 +33,5 @@ node_modules
 .node_repl_history
 
 # Compiled JS
-lib
 umd
 demo/bundle.js
